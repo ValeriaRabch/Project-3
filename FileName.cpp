@@ -27,6 +27,8 @@ int main() {
 	char str[Size]; cin.getline(str, Size);
 	char str2[50]; cin.getline(str2, 50);
 	char str3[50]; cin.getline(str3, 50);
+	char newstr[Size];
+	cout << Change(str, str2, str3, Size, newstr);
 
 	return 0;
 }
